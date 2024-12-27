@@ -45,3 +45,5 @@ decodeMorse = function(morseCode){
   }
   return morseCode.trim().split('   ').map(decodeMorseWord).join(' ');
 }
+
+// or
